@@ -1,0 +1,1 @@
+1. I encountered a similar issue with my code. After reviewing the release notes for CountVectorizer, I learned that the    get_feature_names method is no longer supported in version 1.2 and above. However, it should work fine in version 1.1 and earlier. If you have upgraded your scikit-learn version to 1.2, I suggest using the get_feature_names_out method instead. 
